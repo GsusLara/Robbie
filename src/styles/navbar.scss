@@ -1,0 +1,28 @@
+.navbar{
+    background-color: transparent !important
+}
+.logo{
+    height: 3em;
+}
+.nav-menu{
+    list-style: none;
+}
+.tongle{
+    font-size: 1.5em;
+}
+.Celmenu{
+    text-align: left;
+    top:10%;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius:0.5em ;
+    background: rgba(91, 99, 102, 0.705);
+    transition: all 300ms;
+}
+@media (max-width: 800px) {
+    .logo{
+        height: 2em;
+    }
+    .tongle{
+        font-size: 1em;
+    }
+}
