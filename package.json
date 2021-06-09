@@ -1,10 +1,10 @@
 {
-	"name": "plantillaunavista",
+	"name": "robbieapp",
 	"engines": {
 		"node": "14.x"
 	},
 	"version": "1.0.0",
-	"description": "Plantilla para vistas lineales",
+	"description": "webapp institucional",
 	"main": "index.js",
 	"scripts": {
 		"start": "webpack-dev-server --config webpack.dev.js --host 0.0.0.0 --port 3000",
@@ -13,7 +13,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/GsusLara/PlantillaUnavista.git"
+		"url": "git+https://github.com/GsusLara/Robbie.git "
 	},
 	"author": "Jesus Lara Mendez",
 	"license": "ISC",
@@ -31,7 +31,7 @@
 		"css-loader": "^2.1.1",
 		"dotenv-webpack": "^1.7.0",
 		"envfile": "^3.0.0",
-		"error-overlay-webpack-plugin": "^0.2.0",
+		"error-overlay-webpack-plugin": "^0.4.2",
 		"eslint": "^4.19.1",
 		"eslint-loader": "^2.0.0",
 		"eslint-plugin-react": "^7.7.0",
