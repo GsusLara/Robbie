@@ -10,7 +10,7 @@ export const Navbar = () => {
 	const colorNav = store.vistaMenu == "home" ? "rgba(91, 99, 102, 0.200)" : "#FFC85B";
 	return (
 		<nav className="navbar navbar-light fixed-top" style={{ backgroundColor: colorNav }}>
-			<img className="navbar-brand logo" src={logo} />
+			<img className="logo" src={logo} />
 			<div className="ml-auto"></div>
 			<ul className="nav-menu d-none d-lg-flex">
 				<li className="p-3">

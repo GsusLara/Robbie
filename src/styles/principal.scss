@@ -1,48 +1,29 @@
 .portada{
     background-image: url(../img/portada.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
+    background-size: 100vw;
     height: 100vh;
 }
-.celDescription{
+.Description{
     font-family: 'Times New Roman';
-}
-.logosBox{
-   max-width: 90vw;
-}
-.logos{
-    width: 40vw;
-    
+    font-size: 1em;
 }
 
-@media (max-height: 700px){
+@media (max-width: 768px){
     .portada{
         position: absolute;
-        background-size: 100vw;
     }
-    .logosBox{
-    max-width: 90vw;
+    #mep{
+        height: 12vh;
     }
-    .logos{
-        width: 40vw;
-        
+    #marca{
+        height: 10vh;
     }
 }
 
-@media (min-height: 700px) and (max-width: 500px){
-    .portada{
-        position: absolute;
-        background-size: 100vw;
-    }
-    .celDescription{
-        margin-top: 30vh;
-    }
-    .logosBox{
-        max-width: 80vw;
-    }
-    .logos{
-        position: relative;
-        width: 70vw;
-    }
-}
+// @media (min-width: 992px){
+//     .Description{
+//         background-color: rgba(91, 99, 102, 0.200);
+//         border-radius: 2rem;
+//     }
+// }
