@@ -1,8 +1,8 @@
 .navbar{
-    background-color: transparent !important
+    transition: all 1s;
 }
 .logo{
-    height: 3em;
+    height: 4em;
 }
 .nav-menu{
     list-style: none;
@@ -12,15 +12,15 @@
 }
 .Celmenu{
     text-align: left;
-    top:10%;
+    top:12%;
     border-top-left-radius: 0.5em;
     border-bottom-left-radius:0.5em ;
-    background: rgba(91, 99, 102, 0.705);
+    background: rgba(91, 99, 102, 0.596);
     transition: all 300ms;
 }
 @media (max-width: 800px) {
     .logo{
-        height: 2em;
+        height: 3em;
     }
     .tongle{
         font-size: 1em;
