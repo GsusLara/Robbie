@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/navbar.scss";
 import { Link } from "react-scroll";
-import logo from "../../img/logo.png";
+import logo from "../../img/Logo.png";
 
 export const Navbar = () => {
 	const { store, actions } = useContext(Context);

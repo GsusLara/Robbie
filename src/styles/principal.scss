@@ -16,6 +16,20 @@
     
 }
 
+@media (max-height: 700px){
+    .portada{
+        position: absolute;
+        background-size: 100vw;
+    }
+    .logosBox{
+    max-width: 90vw;
+    }
+    .logos{
+        width: 40vw;
+        
+    }
+}
+
 @media (min-height: 700px) and (max-width: 500px){
     .portada{
         position: absolute;
