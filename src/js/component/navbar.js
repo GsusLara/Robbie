@@ -56,7 +56,7 @@ export const Navbar = () => {
 			</ul>
 			<ul
 				className="nav-menu flex-column d-lg-none position-fixed Celmenu"
-				style={{ right: visible ? "0" : "-40%" }}>
+				style={{ right: visible ? "0" : "-50%" }}>
 				<li className="pt-3 pb-3 pr-3">
 					<Link
 						to="principal"
@@ -99,7 +99,7 @@ export const Navbar = () => {
 				</li>
 			</ul>
 			<span className="d-lg-none tongle" onClick={() => setvisible(!visible)}>
-				<i className="fas fa-bars"></i>
+				<i className="fas fa-bars" /> Menú
 			</span>
 		</nav>
 	);
