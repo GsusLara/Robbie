@@ -18,6 +18,13 @@
     background: rgba(91, 99, 102, 0.596);
     transition: all 300ms;
 }
+.enlace{
+    cursor: pointer;
+    transition: all 500ms;
+}
+.enlace:hover{
+    font-size: 1.5rem;
+}
 @media (max-width: 800px) {
     .logo{
         height: 2em;

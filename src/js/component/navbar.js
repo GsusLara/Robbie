@@ -18,7 +18,8 @@ export const Navbar = () => {
 						to="principal"
 						smooth={true}
 						duration={2000}
-						style={{ color: store.vistaMenu == "home" ? " #ffffff" : " #0a0a0a" }}>
+						style={{ color: store.vistaMenu == "home" ? " #ffffff" : " #0a0a0a" }}
+						className=" enlace text-decoration-none">
 						Inicio
 					</Link>
 				</li>
@@ -27,8 +28,9 @@ export const Navbar = () => {
 						to="info"
 						smooth={true}
 						duration={2000}
-						style={{ color: store.vistaMenu == "info" ? " #ffffff" : " #0a0a0a" }}>
-						Acerca de
+						style={{ color: store.vistaMenu == "info" ? " #ffffff" : " #0a0a0a" }}
+						className=" enlace text-decoration-none">
+						Arquitectura
 					</Link>
 				</li>
 				<li className="p-3">
@@ -36,7 +38,8 @@ export const Navbar = () => {
 						to="Proyectos"
 						smooth={true}
 						duration={2000}
-						style={{ color: store.vistaMenu == "proyectos" ? " #ffffff" : " #0a0a0a" }}>
+						style={{ color: store.vistaMenu == "proyectos" ? " #ffffff" : " #0a0a0a" }}
+						className=" enlace text-decoration-none">
 						Proyectos
 					</Link>
 				</li>
@@ -45,7 +48,8 @@ export const Navbar = () => {
 						to="contacto"
 						smooth={true}
 						duration={2000}
-						style={{ color: store.vistaMenu == "contacto" ? " #ffffff" : " #0a0a0a" }}>
+						style={{ color: store.vistaMenu == "contacto" ? " #ffffff" : " #0a0a0a" }}
+						className=" enlace text-decoration-none">
 						Contacto
 					</Link>
 				</li>
@@ -58,7 +62,8 @@ export const Navbar = () => {
 						to="principal"
 						smooth={true}
 						duration={2000}
-						style={{ color: store.vistaMenu == "home" ? " #FFC85B" : "#ffffff" }}>
+						style={{ color: store.vistaMenu == "home" ? " #FFC85B" : "#ffffff" }}
+						className=" enlace text-decoration-none">
 						Inicio
 					</Link>
 				</li>
@@ -67,8 +72,9 @@ export const Navbar = () => {
 						to="info"
 						smooth={true}
 						duration={2000}
-						style={{ color: store.vistaMenu == "info" ? " #FFC85B" : "#ffffff" }}>
-						Acerca de
+						style={{ color: store.vistaMenu == "info" ? " #FFC85B" : "#ffffff" }}
+						className=" enlace text-decoration-none">
+						Arquitectura
 					</Link>
 				</li>
 				<li className="pt-3 pb-3 pr-3">
@@ -76,7 +82,8 @@ export const Navbar = () => {
 						to="Proyectos"
 						smooth={true}
 						duration={2000}
-						style={{ color: store.vistaMenu == "proyectos" ? " #FFC85B" : "#ffffff" }}>
+						style={{ color: store.vistaMenu == "proyectos" ? " #FFC85B" : "#ffffff" }}
+						className=" enlace text-decoration-none">
 						Proyectos
 					</Link>
 				</li>
@@ -85,7 +92,8 @@ export const Navbar = () => {
 						to="contacto"
 						smooth={true}
 						duration={2000}
-						style={{ color: store.vistaMenu == "contacto" ? " #FFC85B" : "#ffffff" }}>
+						style={{ color: store.vistaMenu == "contacto" ? " #FFC85B" : "#ffffff" }}
+						className=" enlace text-decoration-none">
 						Contacto
 					</Link>
 				</li>

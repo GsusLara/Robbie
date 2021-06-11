@@ -21,9 +21,17 @@
     }
 }
 
-// @media (min-width: 992px){
-//     .Description{
-//         background-color: rgba(91, 99, 102, 0.200);
-//         border-radius: 2rem;
-//     }
-// }
+@media (max-height: 550px){
+    .Description{
+       color: #FFC85B;
+       background: rgba(91, 99, 102, 0.479);
+    }
+    #mep{
+        height: 12vh;
+    }
+    #marca{
+        height: 10vh;
+        background: rgba(223, 216, 216, 0.425);
+        border-radius: .5rem;
+    }
+}
