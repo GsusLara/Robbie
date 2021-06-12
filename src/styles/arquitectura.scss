@@ -1,0 +1,13 @@
+.cuerpo{
+    height: 80vh;
+    background-image: url(../img/robot.png);
+    background-repeat: no-repeat;
+    background-size: 60vh;
+    background-position-x: center;
+}
+
+@media (max-width: 768px) {
+    .cuerpo{
+        background-position-x: 35vw;
+    }  
+}

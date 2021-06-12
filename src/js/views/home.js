@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/home.scss";
 import { Principal } from "../component/principal";
+import { Arquitectura } from "../component/arquitectura";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -35,13 +36,12 @@ export const Home = () => {
 	}, []);
 
 	return (
-		<div ref={h} className="container-fluid text-center p-0 m-0">
-			<div id="principal" className="container-fluid p-0 m-0 text-center secciones">
+		<div className="container-fluid text-center p-0 m-0">
+			<div ref={h} id="principal" className="container-fluid p-0 m-0 text-center secciones">
 				<Principal />
 			</div>
 			<div ref={i} id="info" className="container-fluid p-0 m-0 text-center secciones">
-				{" "}
-				<div className="container contenido">hola</div>{" "}
+				<Arquitectura />
 			</div>
 			<div ref={p} id="Proyectos" className="container-fluid p-0 m-0 text-center secciones">
 				{" "}
