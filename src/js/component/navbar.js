@@ -30,7 +30,7 @@ export const Navbar = () => {
 						duration={2000}
 						style={{ color: store.vistaMenu == "info" ? " #ffffff" : " #0a0a0a" }}
 						className=" enlace text-decoration-none">
-						Arquitectura
+						Componentes
 					</Link>
 				</li>
 				<li className="p-3">
@@ -40,7 +40,7 @@ export const Navbar = () => {
 						duration={2000}
 						style={{ color: store.vistaMenu == "proyectos" ? " #ffffff" : " #0a0a0a" }}
 						className=" enlace text-decoration-none">
-						Proyectos
+						Proyecto
 					</Link>
 				</li>
 				<li className="p-3">
@@ -56,12 +56,13 @@ export const Navbar = () => {
 			</ul>
 			<ul
 				className="nav-menu flex-column d-lg-none position-fixed Celmenu"
-				style={{ right: visible ? "0" : "-50%" }}>
+				style={{ right: visible ? "0" : "-80%" }}>
 				<li className="pt-3 pb-3 pr-3">
 					<Link
 						to="principal"
 						smooth={true}
 						duration={2000}
+						onClick={() => setvisible(false)}
 						style={{ color: store.vistaMenu == "home" ? " #FFC85B" : "#ffffff" }}
 						className=" enlace text-decoration-none">
 						Inicio
@@ -72,9 +73,10 @@ export const Navbar = () => {
 						to="info"
 						smooth={true}
 						duration={2000}
+						onClick={() => setvisible(false)}
 						style={{ color: store.vistaMenu == "info" ? " #FFC85B" : "#ffffff" }}
 						className=" enlace text-decoration-none">
-						Arquitectura
+						Componentes
 					</Link>
 				</li>
 				<li className="pt-3 pb-3 pr-3">
@@ -82,9 +84,10 @@ export const Navbar = () => {
 						to="Proyectos"
 						smooth={true}
 						duration={2000}
+						onClick={() => setvisible(false)}
 						style={{ color: store.vistaMenu == "proyectos" ? " #FFC85B" : "#ffffff" }}
 						className=" enlace text-decoration-none">
-						Proyectos
+						Proyecto
 					</Link>
 				</li>
 				<li className="pt-3 pb-3 pr-3">
@@ -92,6 +95,7 @@ export const Navbar = () => {
 						to="contacto"
 						smooth={true}
 						duration={2000}
+						onClick={() => setvisible(false)}
 						style={{ color: store.vistaMenu == "contacto" ? " #FFC85B" : "#ffffff" }}
 						className=" enlace text-decoration-none">
 						Contacto

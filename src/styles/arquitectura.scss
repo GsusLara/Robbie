@@ -1,11 +1,15 @@
 .cuerpo{
-    height: 80vh;
+    height: 85vh;
     background-image: url(../img/robot.png);
     background-repeat: no-repeat;
-    background-size: 60vh;
+    background-size: 65vh;
     background-position-x: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
 }
-
+.decoracion{
+    height: 5rem;
+}
 @media (max-width: 768px) {
     .cuerpo{
         background-position-x: 35vw;
