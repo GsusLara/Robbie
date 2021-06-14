@@ -10,7 +10,6 @@ export const Arquitectura = () => {
 				<div className="row">
 					<div className="col-12 text-left mt-lg-5" style={{ height: "20vh" }}>
 						<h4>Componentes</h4>
-						<img className="decoracion ml-3" src={linea} />
 					</div>
 					<div className="col-11 text-left mt-3">
 						<i className="fas fa-microchip"></i>
