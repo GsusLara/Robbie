@@ -1,17 +1,34 @@
 .portada{
     background-image: url(../img/portada.jpg);
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.336);
+    background-blend-mode: soft-light;
     background-size: 100vw;
     height: 100vh;
 }
+#titulo{
+    font-weight: bold;
+    color: #ffffff;
+}
 .Description{
+    color: #ffffffb7;
     font-family: 'Times New Roman';
     font-size: 1em;
 }
+#marca{
+    background: #ffffffaf;
+    border-radius: .5rem;
+}
 
 @media (max-width: 768px){
+    // .portada{
+    //     position: absolute;
+    // }
     .portada{
-        position: absolute;
+        background-image: url(../img/portadacel.jpg);
+        background-size: cover;
+        background-position: center;  
+        background-color: rgba(0, 0, 0, 0.452);
     }
     #mep{
         height: 12vh;

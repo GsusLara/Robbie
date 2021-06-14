@@ -2,13 +2,15 @@
     transition: all 1s;
 }
 .logo{
-    height: 3.5em;
+    height: 4em;
 }
 .nav-menu{
+    font-weight: bold;
     list-style: none;
 }
 .tongle{
     font-size: 1.5em;
+    color:#ffffff
 }
 .Celmenu{
     text-align: left;
@@ -27,7 +29,7 @@
 }
 @media (max-width: 800px) {
     .logo{
-        height: 2em;
+        height: 3em;
     }
     .tongle{
         font-size: 1em;
