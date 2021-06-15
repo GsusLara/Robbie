@@ -14,11 +14,11 @@ export const Principal = () => {
 						Fundacion Omar dengo y el programa nacional de informática educativa del ministerio de educacion
 						publica
 					</p>
-					<div className="row">
+					<div className="row mt-3">
 						<div className="col-sm-12 col-lg-6">
 							<img id="marca" className="img-fluid" src={marca} />
 						</div>
-						<div className="col-sm-12 col-lg-4 ">
+						<div className="col-sm-12 col-lg-4 mt-3 mt-lg-0">
 							<img id="mep" className="img-fluid" src={mep} />
 						</div>
 					</div>

@@ -40,7 +40,7 @@ export const Home = () => {
 			<div ref={u} id="SeccionUno" className="container-fluid p-0 m-0 text-center secciones">
 				<Principal />
 			</div>
-			<div ref={d} id="SeccionDos" className="container-fluid p-0 m-0 text-center secciones">
+			<div ref={d} id="SeccionDos" className="container-fluid p-0 m-0 text-center">
 				<Proyecto />
 			</div>
 			<div ref={t} id="SeccionTres" className="container-fluid p-0 m-0 text-center secciones">
