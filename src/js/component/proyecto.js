@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/proyecto.scss";
 import ima1 from "../../img/img1.png";
+import ima2 from "../../img/img2.png";
 
 export const Proyecto = () => {
 	let link = "https://drive.google.com/drive/mobile/folders/1VSGFI9QdTIXWPfDyBPPE4DoDLSJ3FHOo?usp=sharing";
@@ -8,12 +9,10 @@ export const Proyecto = () => {
 		<div className="container-fluid  text-center cuerpoProyecto">
 			<div className="row justify-content-center">
 				<div className="col-12 margen" />
-				<div className="col-10 mt-lg-5">
+				<div className="col-10 mt-lg-5 col-lg-5 text-center">
 					<span id="titulo1">LIE++ </span>
 					<span id="titulo2">Preescolar</span>
-				</div>
-				<div className="col-10 mt-3 infoProyecto">
-					<p>
+					<p className=" mt-3 infoProyecto">
 						Consiste estrategias pedagógicas de mediación y de evaluación que le permitirán, junto a sus
 						estudiantes, ir desarrollando y comprendiendo los conceptos de cómputo, profundizar en las
 						habilidades de programación, promover las prácticas y actitudes del pensamiento computacional
@@ -25,6 +24,9 @@ export const Proyecto = () => {
 				</div>
 				<div className="col-12 mt-5 masInfo">
 					<div className="row justify-content-end">
+						<div className="d-none d-md-inline col-md-6 p-md-5 m-right-md-5 ">
+							<img className="img-fluid" src={ima2} />
+						</div>
 						<div className="col-12 mt-3 col-md-6 p-md-3 p-lg-5">
 							<h3 className="text-center">Robbie++ y el aprendizaje</h3>
 							<p className="text-md-right mt-2 mt-lg-5 ">
