@@ -15,7 +15,7 @@ export const Home = () => {
 	const handleScroll = () => {
 		u.current.getBoundingClientRect().y <= 0 && u.current.getBoundingClientRect().y > -400
 			? actions.setVistaMenu("SeccionUno")
-			: d.current.getBoundingClientRect().y <= 300 && d.current.getBoundingClientRect().y > -400
+			: d.current.getBoundingClientRect().y <= 300 && d.current.getBoundingClientRect().y > -800
 			? actions.setVistaMenu("SeccionDos")
 			: t.current.getBoundingClientRect().y <= 300 && t.current.getBoundingClientRect().y > -400
 			? actions.setVistaMenu("SeccionTres")
