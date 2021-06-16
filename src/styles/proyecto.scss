@@ -18,8 +18,29 @@
     font-size: 1em;
 }
 .masInfo{
-    
+    text-align: justify;
     background:#C832AF;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
+}
+.rainInfo{
+    text-align: justify;
+    color: #565656;
+}
+.rainInfo:before{
+    content: '';
+    position: absolute;
+    bottom: 5%;
+    width: 80%;
+    height: 8%;
+    background: rgba(153, 153, 153, 0.192);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@media (max-width: 991px) {
+    .rainInfo:before{
+        bottom: -5%;
+        width: 90%;
+    }
 }
