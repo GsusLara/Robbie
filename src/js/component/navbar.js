@@ -41,7 +41,7 @@ export const Navbar = () => {
 						duration={2000}
 						style={{ color: store.vistaMenu == "SeccionTres" ? " #C832AF" : " #ffffff" }}
 						className=" enlace text-decoration-none">
-						Arquitectura
+						Recursos
 					</Link>
 				</li>
 				<li className="p-3">
@@ -88,7 +88,7 @@ export const Navbar = () => {
 						onClick={() => setvisible(false)}
 						style={{ color: store.vistaMenu == "SeccionTres" ? " #FFC85B" : "#ffffff" }}
 						className=" enlace text-decoration-none">
-						Arquitectura
+						Recursos
 					</Link>
 				</li>
 				<li className="pt-3 pb-3 pr-3">

@@ -1,7 +1,23 @@
 /* 
     General Styles
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     margin: 0px;
     padding: 0px;
+}
+.margen{
+    height: 12vh;
+    width: 100vw;
+}
+.titulo1 , .titulo2{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.titulo1{
+    color:#C832AF;
+}
+.titulo2{
+    color:#000000
 }

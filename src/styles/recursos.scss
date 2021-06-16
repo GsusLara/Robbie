@@ -1,0 +1,48 @@
+.espacio{
+    background-repeat: no-repeat;
+    background-size: 50vh;
+    background-position: center;
+    height: 50vh;
+}
+.espacioInterno{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+#espacio1{
+    background-image: url(../img/forma1.png); 
+}
+#espacio2{
+    background-image: url(../img/forma2.png);
+}
+#espacio3{
+    background-image: url(../img/forma3.png);
+    background-size: 43vh;
+}
+.recurso2{
+    height: 85vh;
+    background-image: url(../img/robot.png);
+    background-repeat: no-repeat;
+    background-size: 65vh;
+    background-position-x: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+.decoracion{
+    height: 10rem;
+}
+@media (max-width: 768px) {
+    .recurso1{
+        height: auto;
+    }
+    .espacio{
+        transform: rotate(90deg);
+    }
+    .espacioInterno{
+        transform: rotate(270deg);
+    }
+    .recurso2{
+        background-position-x: 35vw;
+    }  
+    
+}
