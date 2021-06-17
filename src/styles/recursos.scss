@@ -1,6 +1,6 @@
 .espacio{
     background-repeat: no-repeat;
-    background-size: 50vh;
+    background-size: 45vh;
     background-position: center;
     height: 50vh;
 }
@@ -17,7 +17,6 @@
 }
 #espacio3{
     background-image: url(../img/forma3.png);
-    background-size: 43vh;
 }
 .recurso2{
     height: 85vh;
@@ -28,21 +27,23 @@
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
 }
-.decoracion{
-    height: 10rem;
+.videoLink{
+    text-decoration: underline;
 }
-@media (max-width: 768px) {
+
+.descarga{
+    background: transparent;
+    border: 1px solid white;
+    color: #ffffff
+}
+
+@media (max-width: 991px) {
     .recurso1{
         height: auto;
-    }
-    .espacio{
-        transform: rotate(90deg);
-    }
-    .espacioInterno{
-        transform: rotate(270deg);
-    }
+    }   
+}
+@media (max-width: 767px) {
     .recurso2{
         background-position-x: 35vw;
-    }  
-    
+    }
 }

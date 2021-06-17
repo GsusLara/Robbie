@@ -10,7 +10,7 @@ body{
     height: 12vh;
 }
 .titulo1 , .titulo2{
-    font-size: 2em;
+    font-size: calc(1.2rem + 1.5vw);
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
@@ -19,4 +19,7 @@ body{
 }
 .titulo2{
     color:#000000
+}
+.textResponsive{
+    font-size: calc(.7rem + 1vw);
 }
