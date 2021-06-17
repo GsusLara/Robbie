@@ -6,7 +6,7 @@ import mep from "../../img/mep.png";
 export const Principal = () => {
 	return (
 		<div className="container-fluid m-0 p-0">
-			<div className="row m-0 p-0 portada w-100">
+			<div className="row portada">
 				<div className="col-12 col-md-4 align-self-end align-self-lg-center mb-5 m-lg-3  Description">
 					<h2 id="titulo">Robbie++</h2>
 					<p>
