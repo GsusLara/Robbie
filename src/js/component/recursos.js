@@ -1,15 +1,16 @@
 import React from "react";
 import linea from "../../img/linea.png";
 import "../../styles/recursos.scss";
-import propuesta from "../../doc/propuesta.pdf";
-import manual from "../../doc/manual.pdf";
-import configuracion from "../../doc/configuracion.pdf";
 
 export const Recursos = () => {
-	let linkGiro = "https://www.youtube.com/watch?v=yk8--5ucCns";
-	let linkPinzas = "https://www.youtube.com/watch?v=FNqeC1l4lJE";
-	let linkMover = "https://www.youtube.com/watch?v=UA82wBsGP-8";
-	let linkLuz = "https://www.youtube.com/watch?v=qACE5L7M22Q";
+	const linkGiro = "https://www.youtube.com/watch?v=yk8--5ucCns";
+	const linkPinzas = "https://www.youtube.com/watch?v=FNqeC1l4lJE";
+	const linkMover = "https://www.youtube.com/watch?v=UA82wBsGP-8";
+	const linkLuz = "https://www.youtube.com/watch?v=qACE5L7M22Q";
+	const configuracion =
+		"https://gitpod.io/#https://github.com/GsusLara/Robbie/blob/Desarrollo/src/doc/configuracion.pdf";
+	const manual = "https://github.com/GsusLara/Robbie/raw/Desarrollo/src/doc/manual.pdf";
+	const propuesta = "https://github.com/GsusLara/Robbie/raw/Desarrollo/src/doc/propuesta.pdf";
 
 	return (
 		<div className="container-fluid m-0 p-0">
@@ -36,7 +37,7 @@ export const Recursos = () => {
 								Analiza la propuesta <br />
 								LIE++, preescolar
 							</strong>
-							<a href={propuesta} download="Lie++_Propuesta.pdf" target="blank" rel="noopener noreferrer">
+							<a href={propuesta} target="blank" rel="noopener noreferrer">
 								<button type="button" className="btn btn-light mx-auto mt-5 descarga">
 									Descargar
 								</button>
@@ -54,7 +55,7 @@ export const Recursos = () => {
 							<strong>
 								Conoce su Arquitectura <br /> y componentes
 							</strong>
-							<a href={manual} download="Manual_Robbie++.pdf" target="blank" rel="noopener noreferrer">
+							<a href={manual} target="blank" rel="noopener noreferrer">
 								<button type="button" className="btn btn-light mx-auto mt-4 descarga">
 									Descargar
 								</button>
@@ -72,11 +73,7 @@ export const Recursos = () => {
 							<strong>
 								Sincroniza <br /> Robbie++ y tititbots
 							</strong>
-							<a
-								href={configuracion}
-								download="Configuracion_Robbie++_titibots.pdf"
-								target="blank"
-								rel="noopener noreferrer">
+							<a href={configuracion} target="blank" rel="noopener noreferrer">
 								<button type="button" className="btn btn-light mx-auto mt-5 descarga">
 									Descargar
 								</button>

@@ -4,6 +4,7 @@ import "../../styles/home.scss";
 import { Principal } from "../component/principal";
 import { Recursos } from "../component/recursos";
 import { Proyecto } from "../component/proyecto";
+import { Info } from "../component/info";
 export const Home = () => {
 	const { store, actions } = useContext(Context);
 
@@ -48,7 +49,9 @@ export const Home = () => {
 			</div>
 			<div ref={c} id="SeccionCuatro" className="container-fluid m-0 p-0 secciones" style={{ height: "80vh" }}>
 				{" "}
-				<div className="container text-center">hola</div>{" "}
+				<div className="container text-center">
+					<Info />
+				</div>{" "}
 			</div>
 		</div>
 	);
