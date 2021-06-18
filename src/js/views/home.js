@@ -17,7 +17,7 @@ export const Home = () => {
 			? actions.setVistaMenu("SeccionUno")
 			: d.current.getBoundingClientRect().y <= 300 && d.current.getBoundingClientRect().y > -1100
 			? actions.setVistaMenu("SeccionDos")
-			: t.current.getBoundingClientRect().y <= 350 && t.current.getBoundingClientRect().y > -400
+			: t.current.getBoundingClientRect().y <= 350 && t.current.getBoundingClientRect().y > -800
 			? actions.setVistaMenu("SeccionTres")
 			: c.current.getBoundingClientRect().y <= 300 && c.current.getBoundingClientRect().y > -400
 			? actions.setVistaMenu("SeccionCuatro")
