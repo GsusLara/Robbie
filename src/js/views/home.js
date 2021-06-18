@@ -48,10 +48,7 @@ export const Home = () => {
 				<Recursos />
 			</div>
 			<div ref={c} id="SeccionCuatro" className="container-fluid m-0 p-0 secciones" style={{ height: "80vh" }}>
-				{" "}
-				<div className="container text-center">
-					<Info />
-				</div>{" "}
+				<Info />
 			</div>
 		</div>
 	);

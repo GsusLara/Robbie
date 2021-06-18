@@ -7,7 +7,8 @@ export const Recursos = () => {
 	const linkPinzas = "https://www.youtube.com/watch?v=FNqeC1l4lJE";
 	const linkMover = "https://www.youtube.com/watch?v=UA82wBsGP-8";
 	const linkLuz = "https://www.youtube.com/watch?v=qACE5L7M22Q";
-	const configuracion = "https://github.com/GsusLara/Robbie/raw/Desarrollo/src/doc/Configuracion_Robbie%2B%2B_titibots.pdf";
+	const configuracion =
+		"https://github.com/GsusLara/Robbie/raw/Desarrollo/src/doc/Configuracion_Robbie%2B%2B_titibots.pdf";
 	const manual = "https://github.com/GsusLara/Robbie/raw/Desarrollo/src/doc/Manual_Robbie%2B%2B.pdf";
 	const propuesta = "https://github.com/GsusLara/Robbie/raw/Desarrollo/src/doc/Lie%2B%2B_Propuesta_Preescolar.pdf";
 
