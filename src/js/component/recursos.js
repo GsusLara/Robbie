@@ -96,7 +96,7 @@ export const Recursos = () => {
 							<span className="titulo2">Programar!</span>
 						</div>
 						{/*decorador*/}
-						<div className="col-6  col-lg-6">
+						<div className="col-6  col-lg-6 flecha">
 							<img className="img-fluid" src={linea} />
 						</div>
 						<div className="col-6  col-lg-6 text-right text-md-center mt-lg-2">

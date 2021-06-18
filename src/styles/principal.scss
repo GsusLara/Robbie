@@ -36,7 +36,6 @@
 
 @media (max-height: 550px){
     .Description{
-       color: #FFC85B;
        background: rgba(91, 99, 102, 0.479);
     }
     #mep{
@@ -46,5 +45,12 @@
         height: 10vh;
         background: rgba(223, 216, 216, 0.425);
         border-radius: .5rem;
+    }
+}
+@media (min-width: 1024px) and (min-height: 1366px){
+    .portada{
+        background-image: url(../img/portadacel.jpg);
+        background-size: cover;
+        background-position: center;  
     }
 }

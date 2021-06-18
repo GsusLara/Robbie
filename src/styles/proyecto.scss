@@ -39,3 +39,11 @@
         display: none;
     }
 }
+@media (min-width: 1024px) and (min-height: 1366px){
+    .rainInfo:before{
+        width: 70%;
+    }
+    .tablet{
+        top:7vh;
+    }
+}
