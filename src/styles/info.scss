@@ -5,3 +5,32 @@
     background-blend-mode: soft-light;
     height: 80vh;
 }
+.redes{
+    font-family: 'Roboto', sans-serif;
+}
+.fbIco{
+    color:#3B5998;
+}
+.instaIco{
+    color: #d6249f;
+    color: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+.twiterIco{
+    color:#00ACEE;
+}
+.youtubeIco{
+  color:#c4302b;  
+}
+.whatIco{
+    color:#00BB2D
+}
+.mensaje{
+    background: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #ffffff;
+}
+.enviar{
+    color:#ffffff;
+    background:#00BB2D;
+}

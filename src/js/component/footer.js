@@ -11,9 +11,9 @@ export const Footer = () => {
 				<div className="row justify-content-center">
 					<div className="col-10">
 						<hr className="lineDiv" />
-						<div className="row">
+						<div className="row justify-content-center">
 							<div className="col-lg-3">
-								<div className="col-lg-10">
+								<div className="d-none d-lg-block col-lg-10">
 									<img className="img-fluid" src={mep} />
 								</div>
 							</div>
@@ -27,6 +27,9 @@ export const Footer = () => {
 							</div>
 							<div className="col-lg-3">
 								<img className="img-fluid" src={marca} />
+							</div>
+							<div className="d-lg-none col-8">
+								<img className="img-fluid" src={mep} />
 							</div>
 						</div>
 					</div>
