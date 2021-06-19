@@ -38,7 +38,7 @@ export const Home = () => {
 
 	return (
 		<div className="container-fluid text-center p-0 m-0">
-			<div ref={u} id="SeccionUno" className="container-fluid p-0 m-0 text-center secciones">
+			<div ref={u} id="SeccionUno" className="container-fluid p-0 m-0 text-center">
 				<Principal />
 			</div>
 			<div ref={d} id="SeccionDos" className="container-fluid p-0 m-0 text-center">
@@ -47,7 +47,7 @@ export const Home = () => {
 			<div ref={t} id="SeccionTres" className="container-fluid p-0 m-0 text-center">
 				<Recursos />
 			</div>
-			<div ref={c} id="SeccionCuatro" className="container-fluid m-0 p-0 secciones" style={{ height: "80vh" }}>
+			<div ref={c} id="SeccionCuatro" className="container-fluid m-0 p-0">
 				<Info />
 			</div>
 		</div>

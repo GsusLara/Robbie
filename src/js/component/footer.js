@@ -6,7 +6,7 @@ import "../../styles/footer.scss";
 export const Footer = () => {
 	const gitLink = "https://github.com/GsusLara";
 	return (
-		<footer className="footer mt-auto">
+		<footer className="footer mb-0 pb-3">
 			<div className="container">
 				<div className="row justify-content-center">
 					<div className="col-10">

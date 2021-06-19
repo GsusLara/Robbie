@@ -54,7 +54,7 @@ export const Navbar = () => {
 								duration={2000}
 								style={{ color: store.vistaMenu == "SeccionCuatro" ? " #C832AF" : " #ffffff" }}
 								className=" enlace text-decoration-none">
-								Contacto
+								Consultas
 							</Link>
 						</li>
 					</ul>
@@ -102,7 +102,7 @@ export const Navbar = () => {
 								onClick={() => setvisible(false)}
 								style={{ color: store.vistaMenu == "SeccionCuatro" ? " #FFC85B" : "#ffffff" }}
 								className=" enlace text-decoration-none">
-								Contacto
+								Consultas
 							</Link>
 						</li>
 					</ul>
