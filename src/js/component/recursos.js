@@ -94,7 +94,7 @@ export const Recursos = () => {
 						</div>
 						{/*decorador*/}
 						<div className="col-6  col-lg-6 flecha">
-							<img className="img-fluid" src={linea} />
+							<img className="img-fluid" src={linea} loading="lazy" />
 						</div>
 						<div className="col-6  col-lg-6 text-right text-md-center mt-lg-2">
 							<ul className="list-unstyled text-nowrap">

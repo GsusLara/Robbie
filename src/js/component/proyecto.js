@@ -22,12 +22,12 @@ export const Proyecto = () => {
 					</p>
 				</div>
 				<div className="col-8 col-lg-5">
-					<img className="img-fluid" src={ima1} />
+					<img className="img-fluid" src={ima1} loading="lazy" />
 				</div>
 				<div className="col-12 mt-5 masInfo">
 					<div className="row justify-content-end">
 						<div className="d-none d-md-inline col-md-6 p-md-5 m-right-md-5">
-							<img className="img-fluid" src={ima2} />
+							<img className="img-fluid" src={ima2} loading="lazy" />
 						</div>
 						<div className="col-12 p-5 mt-3 col-md-6 p-md-3 p-lg-5">
 							<h3 className="text-center">Robbie++ y el aprendizaje</h3>
@@ -64,7 +64,7 @@ export const Proyecto = () => {
 					</div>
 				</div>
 				<div className="col-12 mt-lg-3 col-lg-6 tablet">
-					<img className="img-fluid mt-5 mt-lg-0 " src={ima3} />
+					<img className="img-fluid mt-5 mt-lg-0 " src={ima3} loading="lazy" />
 				</div>
 			</div>
 		</div>
