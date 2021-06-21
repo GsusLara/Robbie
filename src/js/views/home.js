@@ -2,24 +2,26 @@ import React, { useEffect, useRef, useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/home.scss";
 import { Principal } from "../component/principal";
-
+import { Recursos } from "../component/recursos";
+import { Proyecto } from "../component/proyecto";
+import { Info } from "../component/info";
 export const Home = () => {
 	const { store, actions } = useContext(Context);
 
-	const h = useRef();
-	const i = useRef();
-	const p = useRef();
+	const u = useRef();
+	const d = useRef();
+	const t = useRef();
 	const c = useRef();
 
 	const handleScroll = () => {
-		h.current.getBoundingClientRect().y <= 0 && h.current.getBoundingClientRect().y > -400
-			? actions.setVistaMenu("home")
-			: i.current.getBoundingClientRect().y <= 300 && i.current.getBoundingClientRect().y > -400
-			? actions.setVistaMenu("info")
-			: p.current.getBoundingClientRect().y <= 300 && p.current.getBoundingClientRect().y > -400
-			? actions.setVistaMenu("proyectos")
+		u.current.getBoundingClientRect().y <= 0 && u.current.getBoundingClientRect().y > -400
+			? actions.setVistaMenu("SeccionUno")
+			: d.current.getBoundingClientRect().y <= 300 && d.current.getBoundingClientRect().y > -1100
+			? actions.setVistaMenu("SeccionDos")
+			: t.current.getBoundingClientRect().y <= 350 && t.current.getBoundingClientRect().y > -800
+			? actions.setVistaMenu("SeccionTres")
 			: c.current.getBoundingClientRect().y <= 300 && c.current.getBoundingClientRect().y > -400
-			? actions.setVistaMenu("contacto")
+			? actions.setVistaMenu("SeccionCuatro")
 			: actions.setVistaMenu("");
 	};
 
@@ -35,21 +37,18 @@ export const Home = () => {
 	}, []);
 
 	return (
-		<div ref={h} className="container-fluid text-center p-0 m-0">
-			<div id="principal" className="container-fluid p-0 m-0 text-center secciones">
+		<div className="container-fluid text-center p-0 m-0">
+			<div ref={u} id="SeccionUno" className="container-fluid p-0 m-0 text-center">
 				<Principal />
 			</div>
-			<div ref={i} id="info" className="container-fluid p-0 m-0 text-center secciones">
-				{" "}
-				<div className="container contenido">hola</div>{" "}
+			<div ref={d} id="SeccionDos" className="container-fluid p-0 m-0 text-center">
+				<Proyecto />
 			</div>
-			<div ref={p} id="Proyectos" className="container-fluid p-0 m-0 text-center secciones">
-				{" "}
-				<div className="container contenido">hola</div>{" "}
+			<div ref={t} id="SeccionTres" className="container-fluid p-0 m-0 text-center">
+				<Recursos />
 			</div>
-			<div ref={c} id="contacto" className="container-fluid m-0 p-0 secciones" style={{ height: "80vh" }}>
-				{" "}
-				<div className="container text-center">hola</div>{" "}
+			<div ref={c} id="SeccionCuatro" className="container-fluid m-0 p-0">
+				<Info />
 			</div>
 		</div>
 	);

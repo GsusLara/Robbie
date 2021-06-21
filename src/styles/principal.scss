@@ -1,9 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
-
-.texto{
-   position: absolute;
-   margin-top: 40vh;
-   font-family: 'Crimson Text', serif;
+.portada{
+    background-image: url(../img/portada.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.452);
+    background-blend-mode: soft-light;
+    background-size: 100vw;
+    height: 100vh;
+}
+#titulo{
+    font-weight: bold;
+    color: #e2dededa;
+}
+.Description{
+    color: #d6d5d5cb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+#marca{
+    background: #ffffffaf;
+    border-radius: .5rem;
 }
 
+@media (max-width: 768px){
+    .portada{
+        background-image: url(../img/portadacel.jpg);
+        background-size: cover;
+        background-position: center;  
+    }
+    #mep{
+        height: 12vh;
+    }
+    #marca{
+        height: 10vh;
+    }
+}
 
+@media (max-height: 550px){
+    .Description{
+       background: rgba(91, 99, 102, 0.479);
+    }
+    #mep{
+        height: 12vh;
+    }
+    #marca{
+        height: 10vh;
+        background: rgba(223, 216, 216, 0.425);
+        border-radius: .5rem;
+    }
+}
+@media (min-width: 1024px) and (min-height: 1366px){
+    .portada{
+        background-image: url(../img/portadacel.jpg);
+        background-size: cover;
+        background-position: center;  
+    }
+}

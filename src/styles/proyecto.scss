@@ -1,0 +1,49 @@
+
+.cuerpoProyecto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.infoProyecto{
+    text-align: justify;
+    color: #565656;
+    font-size: 1em;
+}
+.masInfo{
+    text-align: justify;
+    background:#C832AF;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+.rainInfo{
+    text-align: justify;
+    color: #565656;
+    box-shadow: 0px 0px 10px rgba(109, 108, 108, 0.178);
+}
+.rainInfo:before{
+    content: '';
+    position: absolute;
+    bottom: 2%;
+    width: 80%;
+    height: 8%;
+    background: rgba(83, 83, 83, 0.116);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@media (max-width: 991px) {
+    .rainInfo:before{
+        bottom: -15%;
+        width: 85%;
+    }
+    .rainInfo:before{
+        display: none;
+    }
+}
+@media (min-width: 1024px) and (min-height: 1366px){
+    .rainInfo:before{
+        width: 70%;
+    }
+    .tablet{
+        top:7vh;
+    }
+}

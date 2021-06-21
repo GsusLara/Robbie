@@ -1,24 +1,28 @@
-# plantilla
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/GsusLara/Robbie)
+
+# Robbie++
+
+Robbie++ es un Robot educativo, proyecto propiedad de la fundacioón Omar Dengo.
+Esta pagina web incluye descripcion e información del dispositivo y del proyecto en general.
+
+codigo
+
+JavaScript Reactjs
+JSX
+SCSS
+HTML
 
 # Requerimientos 
 - Asegurate de usar una version de node superior a la 14
 
-# iniciar un nuevo proyecto basado en este boilerplate
+# iniciar el proyecto en IDE
 
-1. cambia los datos del proyecto y repositorio en el archivo package.json
 
-2. instala los paquetes
+1. instala los paquetes
 $ npm install
 
-3. crea la variable de entorno 
+2. crea la variable de entorno 
 $ cp .env.example .env
 
-4. inicia el servidor web para la vista previa de tus cambios
+3. inicia el servidor web para la vista previa de tus cambios
 $ npm run start
-
-
-# Descripcion
-Esta plantilla se basa en componentes funcionales de react,utiliza la arquitectura Flux para el manejo y flujo de datos entre los componentes
- estos se pueden escontrar en el directorio /src/js/store, en archivo appContext.js, no se modifica, las acciones y las variables globales se trabajan dentro de flux.js en los objetos, store y actions
-
-

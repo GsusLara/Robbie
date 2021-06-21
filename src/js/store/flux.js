@@ -1,7 +1,7 @@
 const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
-			vistaMenu: "home"
+			vistaMenu: "SeccionUno"
 		},
 		actions: {
 			setVistaMenu: item => {
