@@ -25,10 +25,10 @@ export const Footer = () => {
 									</a>
 								</span>
 							</div>
-							<div className="col-lg-3">
+							<div className="col-md-3">
 								<img className="img-fluid" src={marca} />
 							</div>
-							<div className="d-lg-none col-8">
+							<div className="col-8 col-md-2 d-lg-none ">
 								<img className="img-fluid" src={mep} />
 							</div>
 						</div>

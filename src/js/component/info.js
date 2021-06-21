@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "../../styles/info.scss";
 
@@ -9,11 +9,11 @@ export const Info = () => {
 	const linkYou = "https://m.youtube.com/user/FundacionOmarDengo";
 	const linkLie = "http://lieencasa.fod.ac.cr/";
 	const whatsAppLink = "https://wa.me/50687147996/?text=";
-	const texto = "Tengo una consulta sobre LIE";
+	const [texto, setTexto] = useState("");
 	let salida = whatsAppLink + texto;
 
 	return (
-		<div className="container-fluid m-0 p-0 fondoInfo">
+		<div className="container-fluid m-0 p-0 pb-5 fondoInfo">
 			<div className="row justify-content-center justify-content-lg-end">
 				<div className="col-12 mb-lg-5 margen" />
 				<div className="col-10 col-lg-4 redes">
@@ -29,16 +29,16 @@ export const Info = () => {
 					</p>
 					<p className="mt-lg-3 ">Siguenos en redes sociales</p>
 					<span>
-						<a href={linkFb} className="fbIco">
+						<a href={linkFb} className="fbIco" target="_blank" rel="noopener noreferrer">
 							<i className="fab fa-facebook-square fa-2x p-2"></i>
 						</a>
-						<a href={linkInsta} className="instaIco">
+						<a href={linkInsta} className="instaIco" target="_blank" rel="noopener noreferrer">
 							<i className="fab fa-instagram-square fa-2x p-2"></i>
 						</a>
-						<a href={linkTwi} className="twiterIco">
+						<a href={linkTwi} className="twiterIco" target="_blank" rel="noopener noreferrer">
 							<i className="fab fa-twitter fa-2x p-2"></i>
 						</a>
-						<a href={linkYou} className="youtubeIco">
+						<a href={linkYou} className="youtubeIco" target="_blank" rel="noopener noreferrer">
 							<i className="fab fa-youtube fa-2x p-2"></i>
 						</a>
 					</span>
@@ -49,12 +49,19 @@ export const Info = () => {
 						<i className="fab fa-whatsapp whatIco"></i>
 					</h6>
 					<p className="mt-lg-5">Para reportes consultas o dudas, escribenos via Whatsapp</p>
-					<input type="text" className="mensaje mt-lg-3" placeholder="Escribe tu mensaje acá..." />
+					<input
+						type="text"
+						className="mensaje mt-lg-3"
+						placeholder="Escribe tu mensaje acá..."
+						onChange={e => setTexto(e.target.value)}
+					/>
 					<br />
-					<a href={salida} target="_blank" rel="noopener noreferrer">
-						<button type="button" className="btn btn-success mt-4 enviar">
-							Enviar<i className="fas fa-paper-plane"></i>
-						</button>
+					<a
+						href={texto.length > 0 ? salida : "#"}
+						target="_blank"
+						rel="noopener noreferrer"
+						className={`btn btn-success mt-4 enviar ${texto.length > 0 ? "" : "disabled"}`}>
+						Enviar <i className="fas fa-paper-plane"></i>
 					</a>
 				</div>
 			</div>

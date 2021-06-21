@@ -2,8 +2,7 @@
     background-image: url("../img/cubos.png");
     background-repeat: no-repeat;
     background-position: 10% 100%;
-    background-blend-mode: soft-light;
-    height: 80vh;
+    background-blend-mode: soft-light;  
 }
 .redes{
     font-family: 'Roboto', sans-serif;
@@ -33,4 +32,10 @@
 .enviar{
     color:#ffffff;
     background:#00BB2D;
+}
+
+@media (min-width: 1025px){
+    .fondoInfo{ 
+        height: 80vh;
+    }
 }
